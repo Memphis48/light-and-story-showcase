@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Home, Camera, User, Mail, Calendar } from 'lucide-react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +15,11 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '#home', icon: Home },
+    { name: 'Portfolio', href: '#portfolio', icon: Camera },
+    { name: 'About', href: '#about', icon: User },
+    { name: 'Booking', href: '#booking', icon: Calendar },
+    { name: 'Contact', href: '#contact', icon: Mail },
   ];
 
   const scrollToSection = (href: string) => {
@@ -45,9 +46,10 @@ const Navigation = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-black hover:text-gray-600 transition-colors duration-200 font-medium"
+                className="flex items-center space-x-2 text-black hover:text-gray-600 transition-colors duration-200 font-medium group"
               >
-                {item.name}
+                <item.icon size={18} className="group-hover:scale-110 transition-transform duration-200" />
+                <span>{item.name}</span>
               </button>
             ))}
           </div>
@@ -69,9 +71,10 @@ const Navigation = () => {
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-left px-4 py-2 text-black hover:text-gray-600 transition-colors duration-200 font-medium"
+                  className="flex items-center space-x-3 w-full text-left px-4 py-2 text-black hover:text-gray-600 transition-colors duration-200 font-medium"
                 >
-                  {item.name}
+                  <item.icon size={18} />
+                  <span>{item.name}</span>
                 </button>
               ))}
             </div>

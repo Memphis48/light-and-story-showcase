@@ -49,6 +49,69 @@ const Gallery = () => {
       category: 'Nature',
       title: 'Mountain Lake',
       description: 'Serene lake surrounded by towering mountains at dawn.'
+    },
+    {
+      id: 7,
+      src: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Urban',
+      title: 'Urban Geometry',
+      description: 'Grayscale architectural perspective showcasing modern design.'
+    },
+    {
+      id: 8,
+      src: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Urban',
+      title: 'City Lines',
+      description: 'Low angle photography capturing the essence of urban architecture.'
+    },
+    {
+      id: 9,
+      src: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Urban',
+      title: 'Concrete Dreams',
+      description: 'Minimalist white concrete structure against the sky.'
+    },
+    {
+      id: 10,
+      src: 'https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Urban',
+      title: 'Glass Reflections',
+      description: 'Bottom view of glass building creating geometric patterns.'
+    },
+    {
+      id: 11,
+      src: 'https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Urban',
+      title: 'Skyward',
+      description: 'Worms eye view of towering buildings reaching for the sky.'
+    },
+    {
+      id: 12,
+      src: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Events',
+      title: 'Tech Conference',
+      description: 'Dynamic atmosphere at a technology conference with digital displays.'
+    },
+    {
+      id: 13,
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Events',
+      title: 'Collaborative Workspace',
+      description: 'Capturing the energy of people working together in a modern environment.'
+    },
+    {
+      id: 14,
+      src: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Events',
+      title: 'Wedding Celebration',
+      description: 'Intimate moment captured during a beautiful wedding ceremony.'
+    },
+    {
+      id: 15,
+      src: 'https://images.unsplash.com/photo-1551818255-e6e10975cd17?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      category: 'Events',
+      title: 'Corporate Gathering',
+      description: 'Professional networking event with engaging conversations.'
     }
   ];
 

@@ -1,46 +1,76 @@
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-gray-50">
+    <section id="about" className="py-20 px-4 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="animate-slide-up">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold mb-8">About Elena</h2>
-            <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
-              <p>
-                I'm Elena Rodriguez, a passionate photographer based in California with over a decade 
-                of experience capturing the beauty of our world through my lens. My journey began with 
-                a simple camera and an insatiable curiosity about the stories that light can tell.
-              </p>
-              <p>
-                Specializing in nature, portrait, and urban photography, I believe every moment 
-                holds a unique narrative waiting to be discovered. My work has been featured in 
-                National Geographic, Outdoor Magazine, and various international exhibitions.
-              </p>
-              <p>
-                When I'm not behind the camera, you'll find me hiking mountain trails, exploring 
-                hidden urban corners, or planning my next adventure. I believe that the best 
-                photographs come from genuine connections—with people, places, and the fleeting 
-                moments that make life extraordinary.
-              </p>
+            <div className="mb-8">
+              <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-gray-900">About Elena</h2>
+              <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"></div>
+            </div>
+            
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
+              <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
+                <p className="first-letter:text-6xl first-letter:font-serif first-letter:text-blue-600 first-letter:float-left first-letter:mr-3 first-letter:mt-1">
+                  I'm Elena Rodriguez, a passionate photographer based in California with over a decade 
+                  of experience capturing the beauty of our world through my lens. My journey began with 
+                  a simple camera and an insatiable curiosity about the stories that light can tell.
+                </p>
+                <p>
+                  Specializing in nature, portrait, and urban photography, I believe every moment 
+                  holds a unique narrative waiting to be discovered. My work has been featured in 
+                  National Geographic, Outdoor Magazine, and various international exhibitions.
+                </p>
+                <p>
+                  When I'm not behind the camera, you'll find me hiking mountain trails, exploring 
+                  hidden urban corners, or planning my next adventure. I believe that the best 
+                  photographs come from genuine connections—with people, places, and the fleeting 
+                  moments that make life extraordinary.
+                </p>
+              </div>
             </div>
 
             {/* Achievements */}
-            <div className="mt-8 grid grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-serif text-2xl font-semibold mb-2">Awards</h3>
-                <ul className="text-gray-600 space-y-1">
-                  <li>International Photography Award 2023</li>
-                  <li>Nature Photographer of the Year 2022</li>
-                  <li>Portrait Excellence Award 2021</li>
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-md border border-white/50">
+                <div className="flex items-center mb-4">
+                  <div className="w-3 h-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full mr-3"></div>
+                  <h3 className="font-serif text-xl font-semibold text-gray-900">Awards</h3>
+                </div>
+                <ul className="text-gray-600 space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-yellow-500 mr-2">•</span>
+                    International Photography Award 2023
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-yellow-500 mr-2">•</span>
+                    Nature Photographer of the Year 2022
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-yellow-500 mr-2">•</span>
+                    Portrait Excellence Award 2021
+                  </li>
                 </ul>
               </div>
-              <div>
-                <h3 className="font-serif text-2xl font-semibold mb-2">Publications</h3>
-                <ul className="text-gray-600 space-y-1">
-                  <li>National Geographic</li>
-                  <li>Outdoor Magazine</li>
-                  <li>Photography Today</li>
+              <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-md border border-white/50">
+                <div className="flex items-center mb-4">
+                  <div className="w-3 h-3 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full mr-3"></div>
+                  <h3 className="font-serif text-xl font-semibold text-gray-900">Publications</h3>
+                </div>
+                <ul className="text-gray-600 space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    National Geographic
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    Outdoor Magazine
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    Photography Today
+                  </li>
                 </ul>
               </div>
             </div>
