@@ -6,14 +6,14 @@ const About = () => {
           {/* Text Content */}
           <div className="animate-slide-up">
             <div className="mb-8">
-              <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-gray-900">About Elena</h2>
+              <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-gray-900">About Nexura</h2>
               <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"></div>
             </div>
             
             <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
               <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p className="first-letter:text-6xl first-letter:font-serif first-letter:text-blue-600 first-letter:float-left first-letter:mr-3 first-letter:mt-1">
-                  I'm Elena Rodriguez, a passionate photographer based in California with over a decade 
+                  I'm Nexura, a passionate photographer based in California with over a decade
                   of experience capturing the beauty of our world through my lens. My journey began with 
                   a simple camera and an insatiable curiosity about the stories that light can tell.
                 </p>
@@ -33,7 +33,7 @@ const About = () => {
 
             {/* Achievements */}
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-md border border-white/50">
+              <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-md border border-white/50 animate-fade-in-delayed hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full mr-3"></div>
                   <h3 className="font-serif text-xl font-semibold text-gray-900">Awards</h3>
@@ -53,7 +53,7 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-md border border-white/50">
+              <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-md border border-white/50 animate-fade-in-delayed-2 hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full mr-3"></div>
                   <h3 className="font-serif text-xl font-semibold text-gray-900">Publications</h3>
@@ -81,7 +81,7 @@ const About = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Elena Rodriguez Portrait"
+                alt="Nexura Portrait"
                 className="w-full h-[600px] object-cover shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

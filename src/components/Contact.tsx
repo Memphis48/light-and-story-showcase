@@ -40,48 +40,48 @@ const Contact = () => {
             <h3 className="font-serif text-2xl font-semibold mb-8">Get in Touch</h3>
             
             <div className="space-y-6">
-              <div className="flex items-center space-x-4">
-                <Mail className="text-gray-600" size={24} />
+              <div className="flex items-center space-x-4 animate-fade-in-delayed hover:translate-x-2 transition-transform duration-300">
+                <Mail className="text-gray-600 hover:text-blue-600 transition-colors duration-300" size={24} />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-600">elena@elenarodriguezphotography.com</p>
+                  <p className="text-gray-600">nexura@nexuraphotography.com</p>
                 </div>
               </div>
               
-              <div className="flex items-center space-x-4">
-                <Phone className="text-gray-600" size={24} />
+              <div className="flex items-center space-x-4 animate-fade-in-delayed-2 hover:translate-x-2 transition-transform duration-300">
+                <Phone className="text-gray-600 hover:text-green-600 transition-colors duration-300" size={24} />
                 <div>
                   <p className="font-medium">Phone</p>
                   <p className="text-gray-600">+1 (555) 123-4567</p>
                 </div>
               </div>
               
-              <div className="flex items-center space-x-4">
-                <Instagram className="text-gray-600" size={24} />
+              <div className="flex items-center space-x-4 animate-fade-in-delayed-3 hover:translate-x-2 transition-transform duration-300">
+                <Instagram className="text-gray-600 hover:text-pink-600 transition-colors duration-300" size={24} />
                 <div>
                   <p className="font-medium">Instagram</p>
-                  <p className="text-gray-600">@elenarod_photography</p>
+                  <p className="text-gray-600">@nexura_photography</p>
                 </div>
               </div>
             </div>
 
             {/* Services */}
-            <div className="mt-12">
+            <div className="mt-12 animate-slide-up-delayed">
               <h3 className="font-serif text-2xl font-semibold mb-6">Services</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-gray-50 p-4 rounded">
+                <div className="bg-gray-50 p-4 rounded hover:bg-gray-100 hover:shadow-md transition-all duration-300 hover:scale-105">
                   <h4 className="font-semibold mb-2">Portrait Sessions</h4>
                   <p className="text-gray-600 text-sm">Professional headshots and lifestyle portraits</p>
                 </div>
-                <div className="bg-gray-50 p-4 rounded">
+                <div className="bg-gray-50 p-4 rounded hover:bg-gray-100 hover:shadow-md transition-all duration-300 hover:scale-105">
                   <h4 className="font-semibold mb-2">Event Photography</h4>
                   <p className="text-gray-600 text-sm">Weddings, corporate events, and celebrations</p>
                 </div>
-                <div className="bg-gray-50 p-4 rounded">
+                <div className="bg-gray-50 p-4 rounded hover:bg-gray-100 hover:shadow-md transition-all duration-300 hover:scale-105">
                   <h4 className="font-semibold mb-2">Commercial Shoots</h4>
                   <p className="text-gray-600 text-sm">Brand photography and product shoots</p>
                 </div>
-                <div className="bg-gray-50 p-4 rounded">
+                <div className="bg-gray-50 p-4 rounded hover:bg-gray-100 hover:shadow-md transition-all duration-300 hover:scale-105">
                   <h4 className="font-semibold mb-2">Fine Art Prints</h4>
                   <p className="text-gray-600 text-sm">Limited edition prints for collectors</p>
                 </div>

@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="relative z-10 h-full flex items-center justify-center text-center text-white px-4">
         <div className="max-w-4xl animate-fade-in">
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6">
-            Elena Rodriguez
+            Nexura
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light tracking-wide">
             Capturing Stories Through Light

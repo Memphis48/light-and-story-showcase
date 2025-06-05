@@ -124,8 +124,13 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
+				'fade-in-delayed': 'fade-in 0.8s ease-out 0.2s both',
+				'fade-in-delayed-2': 'fade-in 0.8s ease-out 0.4s both',
+				'fade-in-delayed-3': 'fade-in 0.8s ease-out 0.6s both',
 				'slide-up': 'slide-up 0.8s ease-out',
-				'zoom-in': 'zoom-in 0.4s ease-out'
+				'slide-up-delayed': 'slide-up 1s ease-out 0.3s both',
+				'zoom-in': 'zoom-in 0.4s ease-out',
+				'zoom-in-delayed': 'zoom-in 0.6s ease-out 0.2s both'
 			}
 		}
 	},

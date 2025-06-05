@@ -151,16 +151,17 @@ const Gallery = () => {
         </div>
 
         {/* Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category) => (
+        <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in-delayed">
+          {categories.map((category, index) => (
             <button
               key={category}
               onClick={() => setFilter(category)}
-              className={`px-6 py-2 transition-all duration-300 ${
+              className={`px-6 py-2 transition-all duration-300 hover:scale-105 ${
                 filter === category
-                  ? 'bg-black text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  ? 'bg-black text-white shadow-lg'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:shadow-md'
               }`}
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               {category}
             </button>
@@ -172,8 +173,9 @@ const Gallery = () => {
           {filteredImages.map((image, index) => (
             <div
               key={image.id}
-              className="group relative overflow-hidden bg-gray-100 aspect-square cursor-pointer animate-zoom-in"
+              className="group relative overflow-hidden bg-gray-100 aspect-square cursor-pointer animate-fade-in hover:shadow-xl transition-shadow duration-300"
               onClick={() => openLightbox(index)}
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <img
                 src={image.src}
